@@ -9,9 +9,7 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: 100%;
-}
-
-
+}
 
 .inicial {
     margin: 10% 0 0 0;
@@ -65,7 +63,7 @@ form p {
 .input-padrao {
     font-size: 80%;
 	/* display: block; */
-    margin: 2% 10% 2% 10%;
+    margin: 2% 10% 2% 5%;
     padding: 0 0 0 4%;
 	width: 81%;
     height: 40px;
