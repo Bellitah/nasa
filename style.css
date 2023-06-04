@@ -9,7 +9,9 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: 100%;
-}
+}
+
+
 
 .inicial {
     margin: 10% 0 0 0;
@@ -63,7 +65,7 @@ form p {
 .input-padrao {
     font-size: 80%;
 	/* display: block; */
-    margin: 2% 10% 2% 5%;
+    margin: 2% 10% 2% 10%;
     padding: 0 0 0 4%;
 	width: 81%;
     height: 40px;
@@ -74,8 +76,8 @@ form p {
 
 .enviar {
     align-items: center;
-    margin: 0 10px 10px 60%;
-    padding: 2% 5% 4% 5%;
+    margin: 7px 10px 0px 60%;
+    padding: 2% 5% 2% 5%;
 	background: #2f2aa2;
 	font-weight: bold;
 	font-size: 100%;
@@ -88,8 +90,8 @@ form p {
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+    background: #4876d6;
+    transform: scale(1.11);
 }
 
 @keyframes float {
@@ -105,7 +107,32 @@ form p {
 }
 
 @media (min-width: 600px) { 
-   
+   .titulo {
+    font-size: 200%;
+   }
+
+   .descricao{
+    font-size: 160%;
+   }
+
+   form {
+    margin: 4% 0 0 16%;
+    width: 30%;
+    padding: 0 2% 1% 0%;
+   }
+
+   form p {
+    padding: 3% 2% 2% 2%;
+   }
+
+   .imput-padrao {
+    width: 80%;
+   }
+
+   .enviar {
+    margin: 3px 10px 0 70%;
+    padding: 2% 5% 2% 5%;
+   }
 }
 
 
